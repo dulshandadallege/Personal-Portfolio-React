@@ -24,15 +24,30 @@ const Person = ({ img, name, job, children }) => {
 const PersonList = () => {
     return (
         <section className="person-list">
-            <Person img="30" name='john' job="developer" />
-            <Person img="24" name='bob' job="designer">
-                <p>Now, the question you should be asking yourself:
-                What can I invest time and effort into learning that has
-                the greatest net value on my future career as a developer
-                in terms of knowledge, salary, and satisfaction?
-                </p>
+            <Person img="30" name='john' job="developer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </Person>
-            <Person img="57" name='david' job="ceo" />
+            <Person img="24" name='bob' job="designer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </Person>
+            <Person img="57" name='david' job="ceo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </Person>
         </section>
     );
 };
