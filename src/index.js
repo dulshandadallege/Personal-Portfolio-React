@@ -24,7 +24,7 @@ const Person = ({ img, name, job, children }) => {
 const PersonList = () => {
     return (
         <section className="person-list">
-            <Person img="30" name='john' job="developer">
+            <Person img="30" name='john lewis' job="developer">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -32,7 +32,7 @@ const PersonList = () => {
                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </Person>
-            <Person img="24" name='bob' job="designer">
+            <Person img="24" name='bob elgar' job="designer">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -40,7 +40,7 @@ const PersonList = () => {
                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </Person>
-            <Person img="57" name='david' job="ceo">
+            <Person img="57" name='david desilva' job="ceo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
